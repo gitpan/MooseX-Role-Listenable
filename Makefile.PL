@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.31;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'a parameterized role for observable objects',
+  'ABSTRACT' => 'A parameterized role for observable objects',
   'AUTHOR' => 'Ran Eilam <ran.eilam@gmail.com>',
   'BUILD_REQUIRES' => {},
   'CONFIGURE_REQUIRES' => {
@@ -22,7 +22,7 @@ my %WriteMakefileArgs = (
   'PREREQ_PM' => {
     'MooseX::Role::Parameterized' => '0.19'
   },
-  'VERSION' => '0.001',
+  'VERSION' => '0.002',
   'test' => {
     'TESTS' => 't/*.t'
   }

@@ -1,9 +1,9 @@
 
 
 This archive contains the distribution MooseX-Role-Listenable,
-version 0.001:
+version 0.002:
 
-  a parameterized role for observable objects
+  A parameterized role for observable objects
 
 This software is copyright (c) 2010 by Ran Eilam.
 

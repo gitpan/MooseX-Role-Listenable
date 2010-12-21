@@ -1,5 +1,5 @@
 ---
-abstract: 'a parameterized role for observable objects'
+abstract: 'A parameterized role for observable objects'
 author:
   - 'Ran Eilam <ran.eilam@gmail.com>'
 build_requires: {}
@@ -14,4 +14,4 @@ meta-spec:
 name: MooseX-Role-Listenable
 requires:
   MooseX::Role::Parameterized: 0.19
-version: 0.001
+version: 0.002

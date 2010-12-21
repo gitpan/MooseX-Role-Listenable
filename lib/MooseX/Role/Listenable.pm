@@ -1,6 +1,10 @@
 package MooseX::Role::Listenable;
 
-# ABSTRACT: a parameterized role for observable objects
+# ABSTRACT: A parameterized role for observable objects
+
+=head1 NAME
+
+MooseX::Role::Listenable - A parameterized role for observable objects
 
 =head1 SYNOPSIS
 
@@ -42,6 +46,17 @@ a reference to them somewhere else.
 =head1 SEE ALSO
 
 C<Class::Listener>, C<Class::Observable>, and C<Aspect::Library::Listenable>.
+
+=head1 AUTHOR
+
+Ran Eilam <eilara@cpan.org>
+
+=head1 COPYRIGHT
+
+Ran Eilam <eilara@cpan.org>
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
 
 =cut
 
