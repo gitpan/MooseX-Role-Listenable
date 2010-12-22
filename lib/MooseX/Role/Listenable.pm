@@ -61,7 +61,7 @@ it under the same terms as Perl itself.
 =cut
 
 use MooseX::Role::Parameterized;
-use aliased 'Set::Object::Weak' => 'Set';
+use Set::Object::Weak;
 
 parameter event => (isa => 'Str', required => 1);
 
@@ -73,10 +73,10 @@ role {
     has $list => (
         is         => 'ro',
         lazy_build => 1,
-        isa        => Set,
+        isa        => 'Set::Object::Weak',
     );
 
-    method "_build_$list" => sub { Set->new };
+    method "_build_$list" => sub { Set::Object::Weak->new };
 
     method "add_${event}_listener" => sub {
         my ($self, $listener) = @_;

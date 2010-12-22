@@ -14,4 +14,4 @@ meta-spec:
 name: MooseX-Role-Listenable
 requires:
   MooseX::Role::Parameterized: 0.19
-version: 0.002
+version: 0.003
