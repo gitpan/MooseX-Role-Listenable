@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.31;
 
 my %WriteMakefileArgs = (
   'ABSTRACT' => 'A parameterized role for observable objects',
-  'AUTHOR' => 'Ran Eilam <eilara@cpan.org>',
+  'AUTHOR' => 'Ran Eilam <ran.eilam@gmail.com>',
   'BUILD_REQUIRES' => {},
   'CONFIGURE_REQUIRES' => {
     'ExtUtils::MakeMaker' => '6.31'
@@ -20,10 +20,9 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'MooseX::Role::Listenable',
   'PREREQ_PM' => {
-    'MooseX::Role::Parameterized' => '0.19',
-    'Set::Object' => '1.28'
+    'MooseX::Role::Parameterized' => '0.19'
   },
-  'VERSION' => '0.004',
+  'VERSION' => '0.003',
   'test' => {
     'TESTS' => 't/*.t'
   }
